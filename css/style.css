@@ -95,7 +95,7 @@ a:active {
     height: 2px;
     background: #80d6a3;
     position: absolute;
-    top: 12px;
+    top: 60px;
     left: -60px;
 }
 .title h2:after {
@@ -104,7 +104,7 @@ a:active {
     height: 2px;
     background: #80d6a3;
     position: absolute;
-    top: 12px;
+    top: 60px;
     right: -60px;
 }
 .title p {
@@ -252,6 +252,8 @@ header .navbar {
   font-size: 55px;
   font-weight: 100;
   color: #80d6a3;
+  height: 500px;
+  writing-mode: vertical-lr;
 }
 #banner .block h2 {
   font-size: 18px;
@@ -345,9 +347,10 @@ header .navbar {
   margin-top: 40px;
 }
 #counter {
-  background: url(../img/counter-bg.jpg) no-repeat;
+  background: url(../img/baby/88.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  background-size:contain;
   position: relative;
   text-align: center;
   padding: 100px 0;
@@ -1322,5 +1325,24 @@ footer p {
   -webkit-transition-timing-function: ease-in-out;
 }
 
+div .img-div1{
+  background: url('../img/baby/ys.jpg');
+  height:100px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat}
 
 
+  div .img-div2{
+    background: url('../img/baby/ys2.jpg');
+    height:100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat}
+
+  div .img-div3{
+      background: url('../img/baby/ys3.jpg');
+      height:100px;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat}
